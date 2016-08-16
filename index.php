@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <?php include $_SERVER['DOCUMENT_ROOT'] . '/modules/head.php'; ?>
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/jordanbrinkerhoff.net/modules/head.php'; ?>
+        <link href="css/screen.css" media="screen" type="text/css" rel="stylesheet">
         <title>Jordan</title>
     </head>
     <body>
@@ -9,59 +10,85 @@
             <header role="banner">
                 <div>
 
-                    <?php include $_SERVER['DOCUMENT_ROOT'] . '/modules/header.php'; ?>
+                    <?php include $_SERVER['DOCUMENT_ROOT'] . '/jordanbrinkerhoff.net//modules/header.php'; ?>
                 </div>
             </header>
             <nav class="navbar-container" role="navigation">
                 <div class="brand">
-                    <?php include $_SERVER['DOCUMENT_ROOT'] . '/modules/navigation.php'; ?>
+                    <?php include $_SERVER['DOCUMENT_ROOT'] . '/jordanbrinkerhoff.net//modules/navigation.php'; ?>
+                    <a class="navbar-brand" href="#intro">Jordan</a>
                 </div>
-                <div class="about">
 
-                </div>
-                <div class="projects">
-
-                </div>
-                <div class="contact">
-
-                </div>
+                <ul class="nav" >
+                    <li><a class="page-scroll" href="#intro"></a></li>
+                    <li><a class="about" href="#about">About</a></li>
+                    <li><a class="projects" href="#projects">Projects</a></li>
+                    <li><a class="contact" href="#contact">Contact</a></li>
+                </ul>
             </nav>
-            <main role="main">
-                <div class="intro-container">
-                    <?php include $_SERVER['DOCUMENT_ROOT'] . '/modules/main.php'; ?>
-                    <div class="intro-head"> <h1>JordanBrinkerhoff.net</h1>
+            <main role="main"> 
+                <div class="intro-container" >
+                    <img src="img/1_small.jpg">
+                    <div class="intro-head"> 
+                        <h1>Jordan Brinkerhoff</h1>
+                        
 
 
                     </div>
                     <div class="intro-body">
-                        <p>This is a web site for a class, CIT 336 at BYU-Idaho!</p>
+                        <p>I am a senior at Brigham Young University-Idaho studying Computer Information Technology, with a focus on software development and databases engineering and administration.</p>
                     </div>
                 </div>
-                <div class="about-container">
-                    <div class="about-me">
-                        
+                <div class="about-container" id="about">
+                    <div class="about-me-paragraph">
+                        <h1>About Me</h1>
+                        <p>   </p>
+
                     </div>
                     <div class="about-me-image">
-                        
+
                     </div>                  
                 </div>
-                <div>
+                <div class="projects-container" id="projects">
+                <div class="project" >
+
                     
                 </div>
-                
-            </main>
-            
-            <footer role="contentinfo">
-                <div class="contact">
-                    <!--turn site plan into working link-->
-                    <?php include $_SERVER['DOCUMENT_ROOT'] . '/modules/footer.php'; ?>
+                <div class="project" >
 
-                    <?php echo 'Last Updated ' . date('j M. Y', getlastmod()) ?>
+                    
+                </div>
+                <div class="project" >
+
+                    
+                </div>
+                </div>
+
+            </main>
+
+            <footer role="contentinfo">
+                <div class="contact" id="contact">
+                    <!--turn site plan into working link-->
+                    <?php include $_SERVER['DOCUMENT_ROOT'] . '/jordanbrinkerhoff.net/modules/footer.php'; ?>
+
+                    
+                    <div class="contact-title">
+                        
+                    </div>
+                    <div class="contact-icon">
+                        
+                    </div>
+                    <div class="contact-icon">
+                        
+                    </div>
+                    <div class="contact-icon">
+                        
+                    </div>
 
                 </div>
             </footer>
         </div>
-        <script src="/javascript/analytics.js"></script>
+        <script src="js/analytics.js"></script>
     </body>
 
 </html>
