@@ -10,16 +10,17 @@ Style sheet for screened devices
 /*@import url(http://fonts.googleapis.com/css?family=Oxygen|Maven+Pro);*/
 
 
-div.intro-container {
+#intro-container {
 
     
     background-image: url("../img/3.jpeg");
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center top;
     
     background-origin: border-box;
     background-size:contain;
     height: 800px;
+    margin-top: 45px;
     
 
 }
@@ -72,7 +73,9 @@ li a.active {
 
 }
 
-h1.intro {
+h1.intro-head {
+    margin: auto;
+    
     
     
     

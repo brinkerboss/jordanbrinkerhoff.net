@@ -21,18 +21,18 @@
                     <li><a class="contact" href="#contact">Contact</a></li>
                 </ul>
                 </nav>
-        </div>
-                <div class="intro-container" >
-<!--                    <img class="hidden" src="img/3.jpeg">-->
-                    <div class="intro-head"> 
-                        <h1 class="intro">My name is Jordan.</h1>
+                </div>
+                <div id="intro-container" >
+
+                     
+                        <h1 class="intro-head">My name is Jordan.</h1>
                         
 
 
-                    </div>
-                    <div class="intro-body">
-                        <p>I am a senior at Brigham Young University-Idaho studying Computer Information Technology. My focus is on software development and databases engineering and administration.</p>
-                    </div>
+                   
+                    
+                        <p class="intro-body">I am a senior at Brigham Young University-Idaho studying Computer Information Technology. My focus is on software development and databases engineering and administration.</p>
+                    
                 </div>
                 
                 <div class="about-container" id="about">
