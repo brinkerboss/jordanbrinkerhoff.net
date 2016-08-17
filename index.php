@@ -7,18 +7,11 @@
     </head>
     <body>
         <div>
-            <header role="banner">
-                <div>
-
-                    <?php include $_SERVER['DOCUMENT_ROOT'] . '/jordanbrinkerhoff.net//modules/header.php'; ?>
-                </div>
-            </header>
-            <nav class="navbar-container" role="navigation">
-                <div class="brand">
-                    <?php include $_SERVER['DOCUMENT_ROOT'] . '/jordanbrinkerhoff.net//modules/navigation.php'; ?>
-                    
-                </div>
-
+            
+            
+            <main role="main"> 
+                <nav class="navbar-container" role="navigation">
+                
                 <ul class="nav" >
                     <li><a class="navbar-brand" href="#intro">Jordan</a></li>
                     
@@ -26,10 +19,9 @@
                     <li><a class="projects" href="#projects">Projects</a></li>
                     <li><a class="contact" href="#contact">Contact</a></li>
                 </ul>
-            </nav>
-            <main role="main"> 
+                </nav>
                 <div class="intro-container" >
-                    <img src="img/1_small.jpg">
+<!--                    <img class="hidden" src="img/3.jpeg">-->
                     <div class="intro-head"> 
                         <h1>My name is Jordan.</h1>
                         
@@ -40,11 +32,25 @@
                         <p>I am a senior at Brigham Young University-Idaho studying Computer Information Technology. My focus is on software development and databases engineering and administration.</p>
                     </div>
                 </div>
+                
                 <div class="about-container" id="about">
                     <div class="about-me-paragraph">
                         <h1>About Me</h1>
                         <p>   </p>
+ <div class="row">
+            <div class="col-lg-6">
+              <h4><b>Professionally</b></h4>
+              <h4>I was exposed to the world of programming when I began collaborating with developers as a designer in University. I often felt powerless and frustrated after delivering the plans for the product (wire-frames, assets, research). To ease the workload of my teammates, I began tinkering with front-end. A year later and with the help of a <a href="http://dylanerichards.com/">great teacher</a>, I became a Ruby on Rails developer.</h4>
+              <h4>My goal is to develop a product or a service that has a lasting impact on the most amount of people possible. I've saved some of my product design projects <a href="http://heykamok.wordpress.com/" target="_blank" >here</a>, should one find interest in them.</h4>
+            </div>
+            <div class="col-lg-6">
+              <h4><b>Personally</b></h4>
+              <h4>I left Hong Kong and came to the United States when I was 8. I went through English as a Second Language in elementary school and was fortunate to be admitted to Brooklyn Technical High School.</h4>
 
+              <h4>
+              I never had any particular interests, but performed well enough to get a near full scholarship to Parsons School of Design. At Parsons I discovered my intellectual curiosity after being unchallenged from the regular curriculum. That extra energy allowed me to reach for opportunities that went beyond the pursuit of grades, syllabi, bachelors degrees and into the development of the mind. I write more about it on my <a href="http://heykamok.com/blog/on-the-idea-of-an-elite-high-school" target="_blank" >blog post</a>.</h4>
+            </div>
+ </div><!-- row -->
                     </div>
                     <div class="about-me-image">
 

@@ -12,6 +12,8 @@ Style sheet for screened devices
 
 
 .navbar-container {
+    
+    up: 20px;
     margin-right: auto;
     margin-left: auto;
     /*    padding-left:15px;
@@ -21,21 +23,19 @@ Style sheet for screened devices
 
 }
 
-.intro-container {
+div.intro-container {
 
-    background-image: url("../img/1_small.jpg");
+    background-image: url("../img/3.jpeg");
     background-repeat: no-repeat;
     background-position: center top;
-
+    
     background-origin: border-box;
-
+    background-size:contain;
+    height: 800px;
+    
 
 }
-.intro-container img {
-    vertical-align: top;
-    width: 100%; /* max width */
-    opacity: 0;  /* make it transparent */
-}
+
 
 ul {
     list-style-type: none;
@@ -44,7 +44,7 @@ ul {
     overflow: hidden;
     border: 1px solid #e7e7e7;
     background-color: #f3f3f3;
-
+    position: fixed;
     width: 100%;
 
 }
