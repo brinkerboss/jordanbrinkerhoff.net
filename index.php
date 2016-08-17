@@ -10,7 +10,8 @@
             
             
             <main role="main"> 
-                <nav class="navbar-container" role="navigation">
+                <div class="navbar-container">
+                <nav  role="navigation">
                 
                 <ul class="nav" >
                     <li><a class="navbar-brand" href="#intro">Jordan</a></li>
@@ -20,10 +21,11 @@
                     <li><a class="contact" href="#contact">Contact</a></li>
                 </ul>
                 </nav>
+        </div>
                 <div class="intro-container" >
 <!--                    <img class="hidden" src="img/3.jpeg">-->
                     <div class="intro-head"> 
-                        <h1>My name is Jordan.</h1>
+                        <h1 class="intro">My name is Jordan.</h1>
                         
 
 

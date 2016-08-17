@@ -10,24 +10,12 @@ Style sheet for screened devices
 /*@import url(http://fonts.googleapis.com/css?family=Oxygen|Maven+Pro);*/
 
 
-
-.navbar-container {
-    
-    up: 20px;
-    margin-right: auto;
-    margin-left: auto;
-    /*    padding-left:15px;
-        padding-right: 15px;*/
-    
-
-
-}
-
 div.intro-container {
 
+    
     background-image: url("../img/3.jpeg");
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center bottom;
     
     background-origin: border-box;
     background-size:contain;
@@ -36,6 +24,14 @@ div.intro-container {
 
 }
 
+.navbar-container {
+    height: 13px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    /*    padding-left:15px;
+        padding-right: 15px;*/
+    }
 
 ul {
     list-style-type: none;
@@ -74,6 +70,12 @@ li a.active {
     margin-left: 10px;
     margin-right: 30px;
 
+}
+
+h1.intro {
+    
+    
+    
 }
 
 
