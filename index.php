@@ -16,11 +16,12 @@
             <nav class="navbar-container" role="navigation">
                 <div class="brand">
                     <?php include $_SERVER['DOCUMENT_ROOT'] . '/jordanbrinkerhoff.net//modules/navigation.php'; ?>
-                    <a class="navbar-brand" href="#intro">Jordan</a>
+                    
                 </div>
 
                 <ul class="nav" >
-                    <li><a class="page-scroll" href="#intro"></a></li>
+                    <li><a class="navbar-brand" href="#intro">Jordan</a></li>
+                    
                     <li><a class="about" href="#about">About</a></li>
                     <li><a class="projects" href="#projects">Projects</a></li>
                     <li><a class="contact" href="#contact">Contact</a></li>
@@ -30,13 +31,13 @@
                 <div class="intro-container" >
                     <img src="img/1_small.jpg">
                     <div class="intro-head"> 
-                        <h1>Jordan Brinkerhoff</h1>
+                        <h1>My name is Jordan.</h1>
                         
 
 
                     </div>
                     <div class="intro-body">
-                        <p>I am a senior at Brigham Young University-Idaho studying Computer Information Technology, with a focus on software development and databases engineering and administration.</p>
+                        <p>I am a senior at Brigham Young University-Idaho studying Computer Information Technology. My focus is on software development and databases engineering and administration.</p>
                     </div>
                 </div>
                 <div class="about-container" id="about">
