@@ -10,7 +10,7 @@ Style sheet for screened devices
 /*@import url(http://fonts.googleapis.com/css?family=Oxygen|Maven+Pro);*/
 
 
-#intro-container {
+.intro-section {
 
     
     background-image: url("../img/3.jpeg");
@@ -20,7 +20,8 @@ Style sheet for screened devices
     background-origin: border-box;
     background-size:contain;
     height: 800px;
-    margin-top: 45px;
+    text-align: center;
+    
     
 
 }
@@ -48,6 +49,7 @@ ul {
 
 li {
     float: left;
+   
 }
 
 li a {
@@ -56,6 +58,8 @@ li a {
     text-align: center;
     padding: 10px 16px;
     text-decoration: none;
+    border-radius: 100px;
+    
 }
 
 li a:hover {
@@ -74,7 +78,10 @@ li a.active {
 }
 
 h1.intro-head {
-    margin: auto;
+    margin: 25px 25px;
+    margin-top: 50px;
+    
+    
     
     
     

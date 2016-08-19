@@ -13,7 +13,7 @@
                 <div class="navbar-container">
                 <nav  role="navigation">
                 
-                <ul class="nav" >
+                <ul class="nav">
                     <li><a class="navbar-brand" href="#intro">Jordan</a></li>
                     
                     <li><a class="about" href="#about">About</a></li>
@@ -22,6 +22,7 @@
                 </ul>
                 </nav>
                 </div>
+                <section class="intro-section">
                 <div id="intro-container" >
 
                      
@@ -34,7 +35,8 @@
                         <p class="intro-body">I am a senior at Brigham Young University-Idaho studying Computer Information Technology. My focus is on software development and databases engineering and administration.</p>
                     
                 </div>
-                
+                </section>
+                <section>
                 <div class="about-container" id="about">
                     <div class="about-me-paragraph">
                         <h1>About Me</h1>
@@ -58,6 +60,7 @@
 
                     </div>                  
                 </div>
+                    </section>
                 <div class="projects-container" id="projects">
                 <div class="project" >
 
